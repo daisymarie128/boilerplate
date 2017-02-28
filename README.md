@@ -15,7 +15,7 @@ Visit http://localhost:8800/
 
 ## Tools used:
 [NPM](https://www.npmjs.com/)<br>
-[Webpack](https://webpack.github.io/)<br>
+[Webpack 2](https://webpack.js.org/)<br>
 [ES6]<br>
 [BABEL](https://babeljs.io/)<br>
 [SCSS]
