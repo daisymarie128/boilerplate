@@ -14,8 +14,8 @@ Visit http://localhost:8800/
 - The main *app* folder contains all the code that is then bundled under the *dist* folder to be rendered in the browser.
 
 ## Tools used:
-[NPM](https://www.npmjs.com/)
-[Webpack](https://webpack.github.io/)
-[ES6]
-[BABEL](https://babeljs.io/)
+[NPM](https://www.npmjs.com/)<br>
+[Webpack](https://webpack.github.io/)<br>
+[ES6]<br>
+[BABEL](https://babeljs.io/)<br>
 [SCSS]
