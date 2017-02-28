@@ -13,7 +13,7 @@
     "webpack",
     "es6",
     "babel",
-    "scss",
+    "scss"
   ],
   "author": "Daisy Smith",
   "license": "ISC",
