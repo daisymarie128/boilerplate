@@ -4,16 +4,20 @@
   "description": "Code test for UNIT9. Using webpack, babel, scss and threejs.",
   "main": "app/index.js",
   "scripts": {
-    "start": "http-server ./dist -p 8800",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack-dev-server --inline --open ",
+    "start": "http-server ./dist -p 8800  && npm run assets",
+    "test": " ./node_modules/.bin/wdio wdio.conf.js",
+    "watch": "npm run assets && webpack-dev-server --inline --open",
     "production": "webpack -p"
   },
   "keywords": [
     "webpack",
     "es6",
     "babel",
-    "scss"
+    "scss",
+    "jasmine",
+    "webdriverio",
+    "selenium",
+    "browserstack"
   ],
   "author": "Daisy Smith",
   "license": "ISC",
@@ -29,5 +33,23 @@
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "eslint": "^3.16.1",
+    "file-loader": "^0.10.1",
+    "progress-bar-webpack-plugin": "^1.9.3",
+    "sync-files": "^1.0.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-register": "^6.23.0",
+    "babel-runtime": "^6.23.0",
+    "jasmine": "^2.5.3",
+    "selenium-webdriver": "^3.3.0",
+    "wdio-browserstack-service": "^0.1.4",
+    "wdio-dot-reporter": "0.0.7",
+    "wdio-jasmine-framework": "^0.2.19",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "wdio-spec-reporter": "0.0.5",
+    "wdio-webpack-service": "^1.0.1",
+    "webdriverio": "^4.6.2"
+  }
 }
