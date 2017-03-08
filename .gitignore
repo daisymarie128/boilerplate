@@ -8,3 +8,4 @@ errorShots/
 local.log
 chromedriver
 geckodriver
+browserstack.err
