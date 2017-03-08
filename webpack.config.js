@@ -23,6 +23,10 @@ module.exports = {
     ]
   },
 	plugins: [
+		new ProgressBarPlugin(),
+		new CopyWebpackPlugin([
+			{ from: './app/assets', to: 'assets/' }
+		]),
 		HTMLWebpackPluginConfig
 	]
 };
