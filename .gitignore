@@ -3,3 +3,8 @@ npm-debug.log
 .DS_Store
 .eslintcache
 dist/
+errorShots/
+.env
+local.log
+chromedriver
+geckodriver
