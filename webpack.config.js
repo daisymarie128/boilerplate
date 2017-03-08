@@ -1,4 +1,7 @@
-var HTMLWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 var HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 	inject: 'body',
 	template: `${__dirname}/app/index.html`,
