@@ -5,6 +5,7 @@
   "main": "app/index.js",
   "scripts": {
     "start": "http-server ./dist -p 8800  && npm run assets",
+    "assets": "sync-files ./app/assets ./dist/assets",
     "test": " ./node_modules/.bin/wdio wdio.conf.js",
     "watch": "npm run assets && webpack-dev-server --inline --open",
     "production": "webpack -p"
@@ -26,6 +27,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.16.0",
     "css-loader": "^0.25.0",
+    "dotenv": "^4.0.0",
     "html-webpack-plugin": "^2.22.0",
     "http-server": "^0.9.0",
     "node-sass": "^3.10.1",
