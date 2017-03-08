@@ -9,6 +9,10 @@ Visit http://localhost:8800/
 ### For development
 `npm run watch`
 
+### For Testing
+`npm run watch` a version of the app must be running somewhere
+`npm run test`
+
 
 ### Folder structure:
 - The main *app* folder contains all the code that is then bundled under the *dist* folder to be rendered in the browser.
@@ -18,4 +22,14 @@ Visit http://localhost:8800/
 [Webpack 2](https://webpack.js.org/)<br>
 [ES6]<br>
 [BABEL](https://babeljs.io/)<br>
-[SCSS]
+[SCSS]<br>
+[Jasmine](https://jasmine.github.io)<br>
+[Selenium](http://www.seleniumhq.org/)<br>
+[Selenium Standalone](https://github.com/vvo/selenium-standalone)<br>
+[WebdriverIO](http://webdriver.io/)<br>
+[WebdriverIO Jasmine](https://github.com/webdriverio/wdio-jasmine-framework)<br>
+[WebdriverIO Selenium Standalone Service](https://github.com/webdriverio/wdio-selenium-standalone-service)<br>
+[WebdriverIO Spec Reporter](https://github.com/webdriverio/wdio-spec-reporter)<br>
+[WebdriverIO webpack Service](http://webdriver.io/guide/services/webpack.html)<br>
+[BrowserStack](https://www.browserstack.com)<br>
+[WebdriverIO BrowserStack](https://github.com/itszero/wdio-browserstack-service)
